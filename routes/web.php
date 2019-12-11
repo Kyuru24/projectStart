@@ -46,3 +46,5 @@ Route::get('/header', 'PagesController@header');
 
 Route::resource('posts', 'PostsController');
 
+Auth::routes();
+
